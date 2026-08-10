@@ -50,9 +50,7 @@ Three architectures are compared, all trained from scratch under matched trainin
 
 ### 3.2 Training Curves
 
-![Training loss, validation loss, and training perplexity across epochs for Normal vs MoE](results/training_comparison.png)
-
-![Validation perplexity, train-vs-validation loss, and relative improvement over epoch 1](results/validation_analysis.png)
+![Training loss, validation loss, training perplexity, validation perplexity, train-vs-validation loss, and relative improvement over epoch 1, for Normal vs MoE](results/training_comparison.png)
 
 ### 3.3 Parameter & Memory Efficiency
 
@@ -123,7 +121,6 @@ moe-embedding-compression/
 │   └── 02_moe_vs_dim512.ipynb        # MoE (512→256) + full 512-dim baseline
 └── results/
     ├── training_comparison.png
-    ├── validation_analysis.png
     ├── parameter_analysis.png
     └── expert_load_distribution.png
 ```
